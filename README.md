@@ -6,7 +6,7 @@
 
 ```
 [[runners.kubernetes.volumes.pvc]]
-  name = "gitlab-runner-cache-pvc"
+  name = "gitlab-runner-cache-pvc" # 阿里云上创建的pvc名字
   mount_path = "/opt/cache"
   readonly = false
 [[runners.kubernetes.volumes.host_path]]
