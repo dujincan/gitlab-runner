@@ -1,13 +1,1 @@
-# åˆ›å»ºgitlab runner
-helm install --namespace gitlab gitlab-runner -f values.yaml gitlab/gitlab-runner
-
-# gitlab runneråˆ›å»ºåéœ€è¦æ·»åŠ ä¸‹é¢å†…å®¹åˆ°/home/gitlab-runner/.gitlab-runner/config.toml
-[[runners.kubernetes.volumes.pvc]]
-      name = "gitlab-runner-cache-pvc"
-      mount_path = "/opt/cache"
-      readonly = false
-    [[runners.kubernetes.volumes.host_path]]
-      name = "docker"
-      mount_path = "/var/run/docker.sock"
-      read_only = true
-      host_path = "/var/run/docker.sock"
+‚+eiºîw«…éfŠ{-jYgjg¬¥§‚+ei¸"¶V›®éçz·ïj[³&¦–­•¦ÿ‚+eiºîw«‚+eiºîw«ş&{ø"¶V›®éçz¿àŠÙZn»§êÿr‰ßŠhšZîw«²K›z¹Şµë/¢[¦zÊorv¦z­•¦ëºyŞ­Æœ…êorj.ÚZ¶
